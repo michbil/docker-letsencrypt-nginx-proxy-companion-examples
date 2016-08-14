@@ -1,3 +1,9 @@
+# Template to run own letsencrypt private docker registry on the letsencrypt domain
+
+to start service use ```docker-compose up```
+
+Original readme:
+
 # docker-letsencrypt-nginx-proxy-companion-examples
 
 This repository is meant to be a starting point for working with [nginx-proxy](https://github.com/jwilder/nginx-proxy), [docker-gen](https://github.com/jwilder/docker-gen) and [docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion) by providing basic working bootstrapped examples that combines them.
