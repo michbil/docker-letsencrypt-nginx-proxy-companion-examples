@@ -11,3 +11,6 @@ Thumbs.db
 *.cache
 
 volumes/proxy/certs/*
+certs/
+auth/
+registry/
