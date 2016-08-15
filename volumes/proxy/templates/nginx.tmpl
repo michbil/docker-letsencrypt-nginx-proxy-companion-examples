@@ -127,6 +127,9 @@ server {
     ssl_prefer_server_ciphers on;
     ssl_session_timeout 5m;
     ssl_session_cache shared:SSL:50m;
+    
+    
+    client_max_body_size 0; # disable any limits to avoid HTTP 413 for large image uploads
 
     ssl_certificate /etc/nginx/certs/{{ (printf "%s.crt" $cert) }};
     ssl_certificate_key /etc/nginx/certs/{{ (printf "%s.key" $cert) }};
